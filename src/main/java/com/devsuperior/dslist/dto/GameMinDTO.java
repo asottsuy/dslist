@@ -18,7 +18,7 @@ public class GameMinDTO {
         imgUrl = projection.getImgUrl();
         shortDescription = projection.getShortDescription();
         title = projection.getTitle();
-        year = projection.getYear();
+        year = projection.getGameYear();
     }
 
     public GameMinDTO(Game entity) {
